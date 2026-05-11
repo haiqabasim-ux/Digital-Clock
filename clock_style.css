@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background: #0f0f0f; /* Dark background for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contener{
+  
+            background: white;
+            padding: 30px;
+            border-radius: 50px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        
+}
+.clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #03154b; /* Neon blue */
+  font-size: 80px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 20px #03154b; /* Glowing effect */
+}
